@@ -27,7 +27,7 @@ jobs:
       - name: Zip artifact for deployment
         run: |
           mkdir release
-          cp -R * release/
+          cp -R $(ls -A | grep -v 'release') release/
           cd release
           zip -r ../release.zip .
           cd ..
