@@ -1,0 +1,21 @@
+{
+  "name": "altoev-rental-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "redis": "^4.7.0",
+    "redis-cli": "^2.1.2",
+    "stripe": "^17.2.0"
+  }
+}
